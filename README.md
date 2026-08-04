@@ -1,1 +1,32 @@
 # ishub
+# My Portfolio Website
+
+## About
+
+This is my first portfolio website created as an HTML assignment.
+
+The website includes:
+
+- Home page
+- About page
+- Contact page
+- Navigation links
+- Profile image
+
+## Technologies Used
+
+- HTML
+
+## Project Files
+
+```text
+home.html
+about.html
+contact.html
+image/
+README.md
+```
+
+## Author
+
+Hermela Kassahun
