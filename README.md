@@ -16,18 +16,13 @@ The website includes:
 ## Technologies Used
 
 - HTML
-- CSS
+
 
 ## Project Files
 
 ```text
-home.html
-about.html
-contact.html
-styles.css
-image/
+portfolio.html
 README.md
-```
 
 ## Author
 
