@@ -16,12 +16,12 @@ The website includes:
 ## Technologies Used
 
 - HTML
-
-
+- CSS
 ## Project Files
 
 ```text
 portfolio.html
+# CSS
 README.md
 
 ## Author
