@@ -1,95 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfoilo</title>
+
+    <title>Portfolio</title>
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-</head> 
+</head>
 
-<section>
+<body class="bg-gray-50 text-gray-800">
+
     <!-- Header -->
-    
-     <header  class="bg-blue-500 text-white px-8 py-6">
-    <h1 class="text-2xl font-bold">Welcome to My Portifolo</h1>
-<nav class="flex justify-between items-center" >
 
-    <ul class="flex justify-end gap-6">
-        <li>
-            <a href="#home"class="hover:text-gray-200">home</a>
-        </li>
-        <li>
-            <a href="#about"class="hover:text-gray-200"> about></a>
-           
-         </li>
-           <li> 
-             <a href="#contact" class="hover:text-gray-200">contact</a>
-            </li>
-             
-    </ul>
-</nav>
+    <header class="bg-blue-500 text-white px-8 py-6">
 
+        <nav class="flex justify-between items-center max-w-6xl mx-auto">
 
-    <p>Click the links above to know more about me.</p>
-</header>
-<!--Home Section -->
-<section id="home"></section>
-  <h3>Home</h3>
-    <h3>Hermela Kassahun</h3>
+            <!-- Website name -->
+            <h1 class="text-2xl font-bold">
+                Welcome to My Portfolio
+            </h1>
 
-    <img src="image/photo_2026-04-07_05-52-17.jpg" alt="Photo of Hermela Kassahun" width="200">
+            <!-- Navigation -->
+            <ul class="flex gap-6">
 
-    <p class="fonted-semibold">
-        Hello! I'm Hermela Kassahun. I am an AI student who is learning
-        frontend development. I enjoy reading books and learning new things.
-    </p>
-</section>
-<!--About section -->
-<section id="about" class=>
-    <h3 fonted-semibold>About me </h3>
- <p>
-     My name is Hermela Kassahun. I am an AI student and a frontend
-        development learner. 
+                <li>
+                    <a href="#home"
+                       class="hover:text-gray-200">
+                        Home
+                    </a>
+                </li>
 
-   </p>
-   <h4>My Skills</h4>
-   <p>HTML, CSS, JavaScript, Python</p>
-   <h4>My Hobbies</h4>
-     <p>Reading books, learning new things, and programming.</p>
-</section>
+                <li>
+                    <a href="#about"
+                       class="hover:text-gray-200">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                       class="hover:text-gray-200">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <p class="text-center mt-4 text-blue-100">
+            Click the links above to know more about me.
+        </p>
+
+    </header>
 
 
-    <!--Contact me -->
-<section id="contact" >
-    <h3>Contact</h3>
+    <!-- Home Section -->
 
-    <p><strong>Phone:</strong>+251 962120331</p>
-    <p><strong>Email:</strong> hermelakassahun01@gmail.com</p>
+    <section id="home"
+        class="max-w-6xl mx-auto px-8 py-20
+               flex flex-col md:flex-row
+               items-center justify-between gap-12">
 
-</section>
-<!--footer-->
-<footer>
-     <p>&copy; 2026 Hermela Kassahun. All rights reserved.</p>
+        <!-- Text -->
 
-</footer>
-   </body>
+        <div class="max-w-xl">
+
+            <p class="text-blue-500 text-lg font-semibold">
+                Hello, I'm
+            </p>
+
+            <h2 class="text-5xl font-bold text-gray-900 mt-2">
+                Hermela Kassahun
+            </h2>
+
+            <h3 class="text-2xl text-gray-600 mt-4">
+                AI Student & Frontend Developer
+            </h3>
+
+            <p class="text-gray-600 mt-6 leading-relaxed">
+                Hello! I'm Hermela Kassahun. I am an AI student
+                who is learning frontend development. I enjoy
+                reading books and learning new things.
+            </p>
+
+            <!-- Buttons -->
+
+            <div class="flex gap-4 mt-8">
+
+                <a href="#about"
+                   class="bg-blue-500 text-white
+                          px-6 py-3 rounded-lg
+                          hover:bg-blue-600">
+                    About Me
+                </a>
+
+                <a href="#contact"
+                   class="border border-blue-500
+                          text-blue-500
+                          px-6 py-3 rounded-lg
+                          hover:bg-blue-500
+                          hover:text-white">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Image -->
+
+        <div>
+
+            <img
+                src="image/photo_2026-04-07_05-52-17.jpg"
+                alt="Photo of Hermela Kassahun"
+
+                class="w-64 h-64
+                       object-cover
+                       rounded-full
+                       border-4
+                       border-blue-500
+                       shadow-lg"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+
+    <section id="about"
+        class="bg-white px-8 py-20">
+
+        <div class="max-w-6xl mx-auto">
+
+            <h2 class="text-4xl font-bold text-center text-gray-900">
+                About Me
+            </h2>
+
+            <p class="max-w-3xl mx-auto text-center
+                      text-gray-600 leading-relaxed mt-6">
+
+                My name is Hermela Kassahun. I am an AI student
+                and a frontend development learner.
+
+            </p>
+
+
+            <!-- Skills -->
+
+            <h3 class="text-2xl font-bold text-center mt-12">
+                My Skills
+            </h3>
+
+            <div class="flex flex-wrap justify-center
+                        gap-4 mt-6">
+
+                <span class="bg-blue-100 text-blue-700
+                             px-5 py-2 rounded-full">
+                    HTML
+                </span>
+
+                <span class="bg-blue-100 text-blue-700
+                             px-5 py-2 rounded-full">
+                    CSS
+                </span>
+
+                <span class="bg-blue-100 text-blue-700
+                             px-5 py-2 rounded-full">
+                    JavaScript
+                </span>
+
+                <span class="bg-blue-100 text-blue-700
+                             px-5 py-2 rounded-full">
+                    Python
+                </span>
+
+            </div>
+
+
+            <!-- Hobbies -->
+
+            <h3 class="text-2xl font-bold text-center mt-12">
+                My Hobbies
+            </h3>
+
+            <p class="text-center text-gray-600 mt-4">
+                Reading books, learning new things,
+                and programming.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section id="contact"
+        class="px-8 py-20">
+
+        <div class="max-w-3xl mx-auto text-center">
+
+            <h2 class="text-4xl font-bold text-gray-900">
+                Contact Me
+            </h2>
+
+            <div class="bg-white shadow-lg rounded-xl
+                        p-8 mt-8">
+
+                <p class="text-lg">
+                    <strong>Phone:</strong>
+                    +251 962120331
+                </p>
+
+                <p class="text-lg mt-4">
+                    <strong>Email:</strong>
+                    hermelakassahun01@gmail.com
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="bg-blue-500 text-white
+                   text-center py-6">
+
+        <p>
+            &copy; 2026 Hermela Kassahun.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
